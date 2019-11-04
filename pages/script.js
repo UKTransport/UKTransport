@@ -16,20 +16,20 @@ alert ("the 3rd angle is"+ angle3);
 
 
 
-function centuryFromYear(year) {
-	  var x = Math.floor(year/100);
-	  if (year%100===0) {
-	  	 alert( x);
+// function centuryFromYear(year) {
+// 	  var x = Math.floor(year/100);
+// 	  if (year%100===0) {
+// 	  	 alert( x);
 
-	}
-	else {
-		alert( x + 1);
-	}
+// 	}
+// 	else {
+// 		alert( x + 1);
+// 	}
 
-  
-    function multiplesoftenandfour() {
+ 
+    function multiples() {
     	for (let i=0 ; i<101 ; i++ ) 
-          if (i%10==0 i%4==0 ) {
+          if (i%10==0 && i%4==0 ) {
           	console.log("tenfour");
           	  }
     	
@@ -40,3 +40,4 @@ function centuryFromYear(year) {
     else{
     	console.log(i)
     }
+
