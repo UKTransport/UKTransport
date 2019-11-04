@@ -25,3 +25,18 @@ function centuryFromYear(year) {
 	else {
 		alert( x + 1);
 	}
+
+  
+    function multiplesoftenandfour() {
+    	for (let i=0 ; i<101 ; i++ ) 
+          if (i%10==0 i%4==0 ) {
+          	console.log("tenfour");
+          	  }
+    	
+    else if (i%10 ==0) {
+    	console.log("ten");
+    }	// body...
+    
+    else{
+    	console.log(i)
+    }
