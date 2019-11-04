@@ -1,5 +1,5 @@
- 
- nav ul {
+
+  nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,24 +33,16 @@ nav li a:hover {
 text-align: center;
 }
 body{
-
-background-image: url("Images/test.png");
-
-
-
- background-size: cover;
-  background-position: center;
-  height: 500px;
+background-image: url("trial.jpg");
 background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+height: 0px;
+  margin: 0px;
+  padding: 0px;
+  }
 
 
- list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  
-}
 
 
 
